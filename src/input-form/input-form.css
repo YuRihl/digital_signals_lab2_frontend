@@ -1,0 +1,49 @@
+#form {
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+
+    margin: 1rem;
+}
+
+#form, #dot-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form-container {
+    margin: 0.5rem 0;
+}
+
+.form-item {
+    width: 6rem;
+    height: 2rem;
+    text-align: center;
+
+    margin: 0.25rem 0.5rem;
+}
+
+input.form-item {
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+}
+
+#dot-container {
+    width: 31%;
+}
+
+#form-button {
+    background-color: white;
+    height: 3rem;
+    width: 6rem;
+
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+
+    padding: 0;
+}
+
+#form-button:hover {
+    background-color: rgb(226, 223, 223);
+}
